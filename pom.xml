@@ -12,11 +12,25 @@
             <groupId>com.google.android</groupId>
             <artifactId>android</artifactId>
             <version>4.1.1.4</version>
+            <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>com.android.tools</groupId>
-            <artifactId>uiautomator-core</artifactId>
-            <version>1.0.0</version>
+            <groupId>com.android.internal</groupId>
+            <artifactId>uiautomator</artifactId>
+            <version>17</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.android.internal</groupId>
+            <artifactId>layoutlib</artifactId>
+            <version>17</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 </project>

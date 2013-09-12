@@ -45,7 +45,7 @@ public class TestCaseCollector {
      *
      * The class name may be in "<class name>#<method name>" format
      *
-     * @param classNames class must be subclass of {@link UiAutomatorTestCase}
+     * @param classNames class must be subclass of {@link com.android.uiautomator.testrunner.UiAutomatorTestCase}
      * @throws ClassNotFoundException
      */
     public void addTestClasses(List<String> classNames) throws ClassNotFoundException {
@@ -59,7 +59,7 @@ public class TestCaseCollector {
      *
      * The class name may be in "<class name>#<method name>" format
      *
-     * @param classNames classes must be subclass of {@link UiAutomatorTestCase}
+     * @param classNames classes must be subclass of {@link com.android.uiautomator.testrunner.UiAutomatorTestCase}
      * @throws ClassNotFoundException
      */
     public void addTestClass(String className) throws ClassNotFoundException {
@@ -75,7 +75,7 @@ public class TestCaseCollector {
     /**
      * Adds class to test by providing class name and method name in separate strings
      *
-     * @param className class must be subclass of {@link UiAutomatorTestCase}
+     * @param className class must be subclass of {@link com.android.uiautomator.testrunner.UiAutomatorTestCase}
      * @param methodName may be null, in which case all "public void testNNN(void)" functions
      *                   will be added
      * @throws ClassNotFoundException

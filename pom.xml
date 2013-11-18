@@ -33,4 +33,9 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
+  <scm>
+    <connection>scm:git:git@github.com:i11/${artifactId}.git</connection>
+    <developerConnection>scm:git:git@github.com:i11/${artifactId}.git</developerConnection>
+    <url>https://github.com/i11/${artifactId}</url>
+  </scm>
 </project>

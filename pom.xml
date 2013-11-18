@@ -4,7 +4,7 @@
 
     <groupId>com.android.tools</groupId>
     <artifactId>uiautomator</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <dependencies>
         <dependency>
             <groupId>com.google.android</groupId>
@@ -35,6 +35,6 @@
     <connection>scm:git:git@github.com:i11/${artifactId}.git</connection>
     <developerConnection>scm:git:git@github.com:i11/${artifactId}.git</developerConnection>
     <url>https://github.com/i11/${artifactId}</url>
-    <tag>uiautomator-1.0.0</tag>
+    <tag>HEAD</tag>
   </scm>
 </project>
